@@ -19,7 +19,7 @@ const Home = () => {
       <ExploreMenu />
       <CtaMenu />
       <FoodList category={category} setCategory={setCategory} />
-      <ExploreMenuRow title={"NEW OFFERS"} />
+      <ExploreMenuRow title={"ALL PRODUCTS"} />
       <Delivery />
       <DownloadMobile />
       <Footer />

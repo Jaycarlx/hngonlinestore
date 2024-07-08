@@ -63,16 +63,16 @@ export const assets = {
 export const menu_list = [
   {
     menu_name: "GRILLED CHICKEN",
-    menu_price: "N5000",
+    menu_price: "N12000",
     menu_image: menu1,
   },
   {
-    menu_name: "GRILLED CHICKEN",
+    menu_name: "PIZZA",
     menu_price: "N5000",
     menu_image: menu2,
   },
   {
-    menu_name: "GRILLED CHICKEN",
+    menu_name: "BURGER",
     menu_price: "N5000",
     menu_image: menu3,
   },
@@ -86,7 +86,7 @@ export const menu_list = [
 export const menu_list_row = [
   {
     menu_name: "GRILLED CHICKEN",
-    menu_price: "N5000",
+    menu_price: "N12000",
     menu_image: menu1,
   },
   {
@@ -116,7 +116,7 @@ export const menu_list_row = [
   },
   {
     menu_name: "GRILLED CHICKEN",
-    menu_price: "N5000",
+    menu_price: "N12000",
     menu_image: menu1,
   },
   {

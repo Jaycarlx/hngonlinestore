@@ -65,6 +65,11 @@ background-color: var(--main-color);
     margin-left: 3rem;
     }
 
+
+#menu-box{
+    text-decoration: none; /* remove underline */
+  color: inherit; /* inherit parent color */
+}
     @media (max-width:1050px){
         .exploreMenuListItem{
             width: 18rem;

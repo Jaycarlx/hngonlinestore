@@ -10,21 +10,22 @@ const ExploreMenuRow = ({ title }) => {
       <div className="exploreMenuList">
         {menu_list_row.map((item, index) => {
           return (
-            <div key={index} className="exploreMenuListItem">
-              <div className="menuDescription">
-                <img src={item.menu_image} alt="menu" />
-                <div className="menuLine"></div>
-                <p>{item.menu_name}</p>
-              </div>
-              <div className="menuPrice">
-                <p>{item.menu_price}</p>
-                <Link>
+            <Link to='/cart' id="menu-box" scrollToTop={true}>
+              <div key={index} className="exploreMenuListItem">
+                <div className="menuDescription">
+                  <img src={item.menu_image} alt="menu" />
+                  <div className="menuLine"></div>
+                  <p>{item.menu_name}</p>
+                </div>
+                <div className="menuPrice">
+                  <p>{item.menu_price}</p>
+
                   <div className="cart">
                     <img src={assets.cart} alt="" />
                   </div>
-                </Link>
+                </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

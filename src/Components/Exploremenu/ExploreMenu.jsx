@@ -4,8 +4,9 @@ import { assets, menu_list } from '../Assets/assets'
 import { Link } from 'react-router-dom'
 const ExploreMenu = () => {
 
-  return (
-      <div className='exploreMenu' id='exploreMenu'>
+    return (
+      <Link to='/cart' id='menu-box' scrollToTop={true}>
+              <div className='exploreMenu' id='exploreMenu'>
           <div className="exploreMenuList">
               {menu_list.map((item, index) => {
                   return (
@@ -31,6 +32,8 @@ const ExploreMenu = () => {
               )}
           </div>
       </div>
+      </Link>
+
   )
 }
 

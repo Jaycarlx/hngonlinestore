@@ -96,6 +96,11 @@ input[type="text"],
   line-height: 18px;
   text-align: center;
 }
+#signupbtn:hover{
+  background-color: var(--white-color);
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+}
 input::placeholder {
   color: #00000064;
   font-size: 1rem;

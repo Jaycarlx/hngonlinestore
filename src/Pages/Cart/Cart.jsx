@@ -18,8 +18,8 @@ const Cart = () => {
           <div className="cart-items-text">
             <h2>PRODUCT INFO</h2>
             <p>
-              THIS IS INFORMATION ABOUT THE PRODUCT AND INFORMATION ABOUT
-              NUTRION AND FACTS{" "}
+            HOT  GRILLED CHICKEN , SEASONED  
+            TO PERFECTION , {" "}
             </p>
           </div>
           <div className="cart-info">

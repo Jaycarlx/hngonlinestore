@@ -76,6 +76,9 @@
   .header {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .header-contentBox {
@@ -89,16 +92,10 @@
     margin-top: 20px;
   }
   .header .green {
-    width: 100%;
-    height: 1.4rem;
-    margin-top:2rem;
-    background-color: var(--main-color);
+    display: none;
   }
   .header-image img {
-    position: static;
-    transform: rotate(-90deg);
-    width: 75%;
-    margin-top: -4rem;
+   display: none;
   }
   .header-content {
     margin: 1rem;
