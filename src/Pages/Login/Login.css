@@ -97,7 +97,7 @@ input[type="text"],
   text-align: center;
 }
 input::placeholder {
-  color: rgba(0, 0, 0, 0.393);
+  color: #00000064;
   font-size: 1rem;
   padding: 1rem 1rem;
 }

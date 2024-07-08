@@ -52,7 +52,7 @@
   font-weight: 600;
   line-height: 15.4px;
   text-align: left;
-  color: rgba(41, 40, 40, 0.5);
+  color: #29282880;
   padding: 1.5rem 2rem;
 }
 
@@ -81,7 +81,7 @@ input[type="text"],
   width: 80%;
   padding: 10px;
   color: var(--main-color);
-  background-color: rgba(217, 217, 217, 1);
+  background-color: #d9d9d9;
   border: none;
 }
 #signupbtn {

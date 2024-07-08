@@ -20,7 +20,6 @@ const Login = () => {
           <form action="">
             <input name="email" class="email" placeholder="Enter your email" />
             <input type="password" placeholder="Enter your password" />
-            <input type="password" placeholder="Confirm your password" />
             <button id="signupbtn">Log in</button>
             <p id="existing-user">
               Don't have an account?
