@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Cart.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
-import { assets, menu_list_row } from "../../Components/Assets/assets";
+import { assets } from "../../Components/Assets/assets";
 import ExploreMenuRow from "../../Components/ExploreMenuRow/ExploreMenuRow";
 import { Link } from "react-router-dom";
 
