@@ -1,0 +1,22 @@
+.deliveryImage {
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 2rem 0rem;
+}
+.deliveryImage img {
+  width: 80rem;
+}
+@media (max-width: 1050px) {
+  .deliveryImage {
+    width: 100%;
+    margin-bottom: -2rem;
+    padding: 0.6rem;
+  }
+
+  .deliveryImage img {
+    width: 100%;
+  }
+}

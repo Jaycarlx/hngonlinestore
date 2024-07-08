@@ -1,0 +1,80 @@
+.exploreMenuList{
+    display: flex;
+    width: 100%;
+    margin-left: 49px;
+    margin-right: 14px;
+    margin-top: 100px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.exploreMenuListItem{
+    width: 16rem;
+height: 19.7rem;
+background: rgba(161, 202, 169, 1);
+border-radius: 15px;
+}
+.exploreMenuListItem:hover{
+    background: rgba(161, 202, 169, 0.5);
+    transform: scale(1.1);
+}
+h1.all-products{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: -5rem;
+    text-align: center;
+}
+.menuDescription{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 15px 0px 23px;
+}
+.menuDescription img{
+    width: 13rem;
+    height: 11rem;
+}
+.menuDescription p{
+font-family: "Montserrat", sans-serif;
+font-size: 12px;
+font-weight: 600;
+line-height: 10px;
+text-align: left;
+width: 133px;
+padding-right: 100px;
+margin-left: 5px;
+}
+.menuLine{
+    width: 203px;
+    height: 5px;
+    margin: 7px;
+    background-color: var(--main-color);
+}
+
+.menuPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuPrice .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 74px;
+height: 62px;
+border-radius: 5px;
+background-color: var(--main-color);
+}
+.menuPrice p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    width: 89px;
+    height: 30px;
+    margin-left: 3rem;
+    }
+
+    @media (max-width:1050px){
+        .exploreMenu h1{
+            margin-bottom: 10rem;
+    }
+}
+   

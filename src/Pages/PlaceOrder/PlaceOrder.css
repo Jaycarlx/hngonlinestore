@@ -1,0 +1,153 @@
+.place-orderPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #a1caa9;
+}
+
+.place-order-card {
+  display: flex;
+  width: 80%;
+  margin: 8rem;
+  background-color: #fff;
+  border-radius: 3rem;
+  justify-content: space-between;
+}
+
+.place-order-summary {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  gap: 1rem;
+}
+.place-order-summary h1 {
+  font-size: 1.5rem;
+}
+.place-order-summary-item {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.order-price-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 0.5rem;
+}
+
+.order-img img {
+  width: 7rem;
+}
+.order-price {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.order-price img {
+  height: 1rem;
+}
+.priceSummary {
+  display: flex;
+  border-top: rgb(0, 0, 0) 1px solid;
+  flex-direction: column;
+  margin-top: -3rem;
+}
+.priceDelivery {
+  display: flex;
+  justify-content: space-between;
+}
+p.priceHeading,
+p.priceAmt {
+  margin-bottom: -1rem;
+}
+.priceTotal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.payment-card {
+  width: 35rem;
+  border-radius: 0rem 3rem 3rem 0rem;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+.payment-card:nth-child(1) {
+  margin: auto;
+}
+
+.payment-card img {
+  width: 80%;
+  margin: auto;
+}
+.payment-field {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 4rem 2rem 4rem;
+}
+.payment-field h2 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--white-color);
+  font-size: 1rem;
+}
+.payment-field hr {
+  border: 0.5px solid rgba(0, 0, 0, 0.226);
+  width: 80%;
+}
+.expiry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-card button {
+  width: 10rem;
+  height: 3.1rem;
+  padding: 7px 12px;
+  border-radius: 1rem;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  color: var(--main-color);
+  margin-left: 4rem;
+}
+
+@media (max-width: 1050px) {
+  .place-order-card {
+    flex-direction: column;
+    margin: 3rem;
+  }
+  .order-img img {
+    width: 3rem;
+  }
+  .place-order-summary-item {
+    display: flex;
+    gap: 0.8rem;
+  }
+  .place-order-summary {
+    width: 80%;
+    margin-left: 1.5rem;
+  }
+  .burger {
+    font-size: 0.8rem;
+  }
+  .order-price {
+    gap: 0.7rem;
+  }
+  .payment-card {
+    width: 100%;
+    border-radius: 0rem 0rem 3rem 3rem;
+  }
+}

@@ -1,0 +1,86 @@
+.ctaMenuBox {
+  display: flex;
+}
+.ctaMenuBox img {
+  width: 60%;
+  height: 25rem;
+  margin-top: 2rem;
+  border-radius: 16px 0px 16px 0px;
+  box-shadow: 0px 27px 82px 0px rgba(124, 124, 124, 0.28);
+  box-shadow: 0px 14px 15px 0px rgba(124, 124, 124, 0.06);
+}
+.ctaTextBox {
+  width: 25rem;
+  height: 20rem;
+  padding: 56px 0px 0px 0px;
+}
+.ctaTextBox h1 {
+  font-family: "Source Sans 3";
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-align: left;
+  width: 407px;
+  height: 106px;
+  color: rgba(97, 97, 97, 1);
+}
+.ctaTextBox h1 .highlight {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-align: left;
+  width: 25rem;
+  height: 106px;
+  color: var(--main-color);
+}
+
+.ctaTextBox button {
+  width: 20rem;
+  height: 3.7rem;
+  padding: 21px 48px 21px 48px;
+  border-radius: 8px;
+  border: none;
+  color: var(--white-color);
+  background-color: var(--main-color);
+  font-family: "Source Sans 3";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+.ctaTextBox p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  width: 18rem;
+  height: 100px;
+  margin-top: -1.5rem;
+  color: rgba(97, 97, 97, 1);
+}
+
+@media (max-width: 1050px) {
+  .ctaMenuBox {
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .ctaMenuBox img {
+    width: 100%;
+    height: 100%;
+  }
+  .ctaTextBox {
+    width: 100%;
+    padding: 2rem;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+  }
+  .ctaTextBox h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .ctaTextBox button {
+    width: 70%;
+    padding: 10px 20px;
+    margin-top: -3rem;
+  }
+}

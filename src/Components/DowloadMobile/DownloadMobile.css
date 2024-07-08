@@ -1,0 +1,21 @@
+.downloadMobile {
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 2rem 0rem;
+}
+.downloadMobile img {
+  width: 80rem;
+}
+@media (max-width: 1050px) {
+  .downloadMobile {
+    width: 100%;
+    margin-bottom: -3rem;
+  }
+
+  .downloadMobile img {
+    width: 100%;
+  }
+}

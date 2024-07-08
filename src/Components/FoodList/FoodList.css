@@ -1,0 +1,45 @@
+.foodList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin: 1.2rem 0rem;
+  overflow-x: scroll;
+}
+.foodList::-webkit-scrollbar {
+  display: none;
+}
+.foodMenuListItem img {
+  border-radius: 50%;
+  min-width: 80px;
+  width: 13rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.foodMenuListItem p {
+  margin-top: 1.5rem;
+  color: rgba(66, 66, 66, 1);
+  font-size: 22px;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  width: 4rem;
+}
+
+.foodMenuListItem .menuDescription {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.foodMenuListItem .active {
+  border: 4px solid var(--main-color);
+  padding: 2px;
+}
+.foodMenuListItem p.active {
+  border: none;
+  font-weight: 700;
+  color: var(--main-color);
+}
