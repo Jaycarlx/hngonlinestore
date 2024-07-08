@@ -1,10 +1,6 @@
-* {
-  box-sizing: border-box;
-}
 .navbar {
   max-width: 90rem;
   height: 60px;
-  opacity: 0px;
   background: #31b94f;
   display: flex;
   justify-content: space-between;
@@ -28,7 +24,6 @@
   left: 980px;
   gap: 0px;
   border-radius: 14px;
-  opacity: 0px;
   background: #ffffff;
   display: flex;
   margin: 12px;

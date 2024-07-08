@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { assets } from "../Assets/assets";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
   const location = useLocation();
   const isHomePage = location.pathname === "/";
 
@@ -14,7 +13,6 @@ const Navbar = () => {
         <img
           src={assets.logo}
           alt="Fresh Bites"
-          className={menu === "home" ? "active" : ""}
         />
       </Link>
       <div className="navbar-menu">
