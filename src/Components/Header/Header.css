@@ -63,8 +63,7 @@
   position: absolute;
   top: -1rem;
   left: 48rem;
-  gap: 0px;
-  opacity: 0px; /* Adjust as needed */
+  gap: 0px; 
 }
 
 /* Responsive adjustments */
